@@ -18,3 +18,23 @@ span {background: #0190EE; cursor: pointer; opacity: 0;filter:alpha(opacity=0); 
     -webkit-transform: rotate(-42deg);
     top: 5px;
 }
+.next:after {
+    -webkit-transform: rotate(-132deg);
+    top: 19px;
+}
+.next:before,.next:after,.prev:before,.prev:after {content: "";
+    height: 20px;
+    background: #fff;
+    width: 1px;
+    position: absolute;
+}
+.prev {left: 10px;}
+.prev:before,.prev:after {left: 18px;}
+.prev:before {
+    -webkit-transform: rotate(42deg);
+    top: 5px;
+}
+.prev:after {
+    -webkit-transform: rotate(132deg);
+    top: 19px;
+}
